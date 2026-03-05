@@ -1,0 +1,30 @@
+{
+  "version": "0.1.0",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/zyno-io/sp2p/releases/download/v0.1.0/sp2p_windows_amd64.zip",
+      "hash": "0c687849fe5f71d0df170da72048c7465855f96bb603b766c84ea529c2404ac0"
+    },
+    "arm64": {
+      "url": "https://github.com/zyno-io/sp2p/releases/download/v0.1.0/sp2p_windows_arm64.zip",
+      "hash": "de54fdc2adc694abaddb8c72ceacbfc7e9fa3bafe7f62b945b4ffac746f2dd85"
+    }
+  },
+  "bin": "sp2p.exe",
+  "homepage": "https://sp2p.io",
+  "license": "MIT",
+  "description": "Secure peer-to-peer file transfer",
+  "checkver": {
+    "github": "https://github.com/zyno-io/sp2p"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/zyno-io/sp2p/releases/download/v$version/sp2p_windows_amd64.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/zyno-io/sp2p/releases/download/v$version/sp2p_windows_arm64.zip"
+      }
+    }
+  }
+}
