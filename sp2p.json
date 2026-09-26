@@ -1,13 +1,13 @@
 {
-  "version": "0.3.0",
+  "version": "0.6.0",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/zyno-io/sp2p/releases/download/v0.3.0/sp2p_windows_amd64.zip",
-      "hash": "25d1f1570116eb6d27ac825443fdc05fcb9be804bcade9105d78ce3d762986d6"
+      "url": "https://github.com/zyno-io/sp2p/releases/download/v0.6.0/sp2p_windows_amd64.zip",
+      "hash": "4d40bcdf04a875ddb9c077db41123d0e0ed88bece9466c833cd838b0a190c6fc"
     },
     "arm64": {
-      "url": "https://github.com/zyno-io/sp2p/releases/download/v0.3.0/sp2p_windows_arm64.zip",
-      "hash": "d9925435577f7e7a45871a038bc1cd0d67cae6b586c3bf1e8890f2d492af33c5"
+      "url": "https://github.com/zyno-io/sp2p/releases/download/v0.6.0/sp2p_windows_arm64.zip",
+      "hash": "4a69c8ed0fd11027ae3d8f390f77429f926654552b867abda4db0cbfa58a9b18"
     }
   },
   "bin": "sp2p.exe",
